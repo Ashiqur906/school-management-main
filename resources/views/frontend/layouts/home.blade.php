@@ -1,0 +1,10 @@
+@extends('frontend.layouts.app')
+@section('content')
+     @include('frontend.layouts.slider')
+     @include('frontend.pages.about')
+     @include('frontend.pages.discover')
+     @include('frontend.pages.apply-for-class')
+     @include('frontend.pages.job')
+     @include('frontend.pages.event')
+     @include('frontend.pages.bottom-bannar')
+@endsection
